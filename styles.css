@@ -14,12 +14,12 @@ body{
   background: #050305;
 }
 .container{
-  width: 440px;
+  max-width: 375px;
+  width: 80%;
   border-radius: 7px;
   background: #222122;
   padding: 10px;
   color: #fff;
-  /* box-shadow: 0 0 3px 10px #ffc600; */
 }
 .container h2{
   font-size: 25px;
@@ -63,7 +63,6 @@ body{
   background: transparent;
   color: #fff;
   border: 1px solid #ffc600;
-  /* margin-bottom: 15px; */
 }
 .content input:focus{
   box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
